@@ -1,0 +1,216 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  
+  /* Hero section */
+  #hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .highlight {
+    color: #ff5e3a;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #ff5e3a;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff3300;
+  }
+  
+  /* About section */
+  #about {
+    /* background-color: #0a0000; */
+    /* opacity: 5%; */
+    /* border-bottom: 2px solid black; */
+    padding: 40px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Projects section */
+  #projects {
+    padding: 40px 0;
+  }
+  
+  .project {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .project img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .project-details {
+    flex-grow: 1;
+  }
+  
+  /* Contact section */
+  #contact {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #ff5e3a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ff704d;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .view-project-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5e3a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  .view-project-button{
+    align-items: center;
+  }
+  
+  .view-project-button:hover {
+    background-color: #0056b3;
+  }
+  #typewriter {
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+    white-space: pre;
+    overflow: hidden;
+    border-right: 2px solid #000;
+    animation: typing 1s steps(40) infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  
+  /* Twitter */
+  .fa-github {
+    background: #070707;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  h3.abhi{
+    font-family: 'Caveat', cursive;
+  }
+  
